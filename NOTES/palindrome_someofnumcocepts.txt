@@ -1,0 +1,22 @@
+
+function sumOfTwoNumbers(a, b) { 
+
+  return a + b; 
+  
+} 
+console.log(sumOfTwoNumbers(10,15))
+
+function findMaxNumber(arr) { 
+
+  return Math.max(arr); 
+
+} 
+
+console.log(findMaxNumber(50))
+
+function isPalindrome(str) { 
+
+  return str === str.split('').reverse().join(''); 
+
+}
+console.log(isPalindrome('malayalam'))
