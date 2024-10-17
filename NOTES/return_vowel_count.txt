@@ -1,0 +1,39 @@
+
+function findTheVowel(str){
+  
+  let atr = str.split('')
+  
+   console.log(atr)
+  
+   let count=0;
+ for (let i = 0; i < str.length; i++) {
+//   for(let j=0;j<(str.length-1),j++)
+  
+    if(str[i]=="a")
+    {
+      count++;
+    }
+     if(str[i]=="e")
+    {
+      count++;
+    }
+     if(str[i]=="i")
+    {
+      count++;
+    }
+     if(str[i]=="o")
+    {
+      count++;
+    }
+     if(str[i]=="u")
+    {
+      count++;
+    }
+   
+ }  return count
+
+  //console.log(count)
+}
+
+//findTheVowel("this is sample")
+console.log(findTheVowel("aeroplane"))
