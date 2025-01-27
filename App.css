@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+
+  width: 100vw;
+  height: 100vh;
+}
+
+
+.btnColor{
+  background-color: blue;
+}
+
+.main{
+  /* border: 3px solid black; */
+  height: 100vh;
+}
+
+/* .left, .right {
+  border: 2px solid red;
+  height: 100vh;
+} */
+
+.mainContainer{
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainContainer > form{
+  border: 2px solid black;
+  border-radius: 5%;
+
+  width: 30%;
+  padding: 2%
+}
+
+.mainContainer h2{
+  text-align: center;
+}
